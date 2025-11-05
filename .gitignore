@@ -13,11 +13,6 @@ dist/
 *.egg-info/
 .eggs/
 
-# Virtual environments
-venv/
-.env/
-.env.*
-.venv/
 
 # IDEs and editors
 .vscode/
