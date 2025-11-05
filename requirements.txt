@@ -1,0 +1,19 @@
+# Requirements for FarmAnimalsAlarm
+# Notes:
+# - "speciesnet" appears to be a local/custom package (installed from Kaggle or local source) and is NOT included here.
+# - PyTorch (torch) wheels vary by CUDA version; prefer installing torch from https://pytorch.org according to your OS/CUDA.
+
+numpy>=1.24
+opencv-python>=4.7.0
+Pillow>=9.0.0
+matplotlib>=3.6.0
+torch>=1.13.1
+ultralytics>=8.0.0
+kaggle>=1.5.12
+# Optional helper used in the GUI to download from Kaggle (may be custom):
+# kagglehub
+
+# Developer/optional tools
+pytest>=7.0
+
+# If you need CPU-only PyTorch, consider installing torch with the official instructions from https://pytorch.org
